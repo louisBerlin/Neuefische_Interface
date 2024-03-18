@@ -11,12 +11,13 @@ public class Main {
         Playable video = new VideoPlayer();
 
 
-        play(music);
+        MediaController.play(music);
         music.play();
 
 
-        
-        play(video);
+
+
+        MediaController.play(video);
         video.play();
 
 
@@ -27,7 +28,5 @@ public class Main {
 
 
 
-    public static void  play(Playable p){
-        p.play();
-    }
+
 }
